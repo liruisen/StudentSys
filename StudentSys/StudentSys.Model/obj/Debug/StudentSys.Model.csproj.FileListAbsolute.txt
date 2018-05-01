@@ -3,3 +3,7 @@ E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.Model\bin\Debu
 E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.Model\obj\Debug\StudentSys.Model.dll
 E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.Model\obj\Debug\StudentSys.Model.pdb
 E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.Model\obj\Debug\StudentSys.Model.csprojResolveAssemblyReference.cache
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.Model\bin\Debug\StudentSys.Model.dll
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.Model\bin\Debug\StudentSys.Model.pdb
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.Model\obj\Debug\StudentSys.Model.dll
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.Model\obj\Debug\StudentSys.Model.pdb

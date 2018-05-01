@@ -12,3 +12,17 @@ E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.UI\bin\Student
 E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.UI\bin\StudentSys.DLL.pdb
 E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.UI\bin\StudentSys.Common.pdb
 E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.UI\obj\Debug\StudentSys.UI.csprojResolveAssemblyReference.cache
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.UI\bin\StudentSys.UI.dll.config
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.UI\bin\StudentSys.UI.dll
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.UI\bin\StudentSys.UI.pdb
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.UI\bin\StudentSys.BLL.dll
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.UI\bin\StudentSys.Model.dll
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.UI\bin\StudentSys.DLL.dll
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.UI\bin\StudentSys.Common.dll
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.UI\bin\StudentSys.BLL.pdb
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.UI\bin\StudentSys.Model.pdb
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.UI\bin\StudentSys.DLL.pdb
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.UI\bin\StudentSys.Common.pdb
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.UI\obj\Debug\StudentSys.UI.csprojResolveAssemblyReference.cache
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.UI\obj\Debug\StudentSys.UI.dll
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.UI\obj\Debug\StudentSys.UI.pdb

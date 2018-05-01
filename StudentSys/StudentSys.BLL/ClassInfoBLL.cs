@@ -15,5 +15,9 @@ namespace StudentSys.BLL
         {
             return clsDal.GetClassList();
         }
+        public string  GetClassNameById(int id)
+        {
+            return clsDal.GetClassById(id).Name;
+        }
     }
 }

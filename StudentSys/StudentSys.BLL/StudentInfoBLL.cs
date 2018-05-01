@@ -16,5 +16,9 @@ namespace StudentSys.BLL
         {
             return stuDal.GetStudentsByClsId(clsId);
         }
+        public StudentInfo GetStudentById(int id)
+        {
+            return stuDal.GetStudentById(id);
+        }
     }
 }
