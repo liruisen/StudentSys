@@ -1,0 +1,5 @@
+E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.Common\bin\Debug\StudentSys.Common.dll
+E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.Common\bin\Debug\StudentSys.Common.pdb
+E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.Common\obj\Debug\StudentSys.Common.csprojResolveAssemblyReference.cache
+E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.Common\obj\Debug\StudentSys.Common.dll
+E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.Common\obj\Debug\StudentSys.Common.pdb

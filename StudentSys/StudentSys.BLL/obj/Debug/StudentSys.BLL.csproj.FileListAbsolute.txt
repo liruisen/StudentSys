@@ -1,0 +1,11 @@
+E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.BLL\bin\Debug\StudentSys.BLL.dll
+E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.BLL\bin\Debug\StudentSys.BLL.pdb
+E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.BLL\obj\Debug\StudentSys.BLL.dll
+E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.BLL\obj\Debug\StudentSys.BLL.pdb
+E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.BLL\bin\Debug\StudentSys.DLL.dll
+E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.BLL\bin\Debug\StudentSys.Model.dll
+E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.BLL\bin\Debug\StudentSys.Common.dll
+E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.BLL\bin\Debug\StudentSys.DLL.pdb
+E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.BLL\bin\Debug\StudentSys.Model.pdb
+E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.BLL\bin\Debug\StudentSys.Common.pdb
+E:\学习文件\代码\ASP案例\StudentSys\StudentSys\StudentSys.BLL\obj\Debug\StudentSys.BLL.csprojResolveAssemblyReference.cache
