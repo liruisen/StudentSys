@@ -1,0 +1,49 @@
+﻿table{
+    width:1000px;
+    border:1px solid #369;
+    padding:0;
+    margin: 0 auto; 
+    border-collapse:collapse;
+}
+table caption{
+    font-size:26px;
+    font-family:'Microsoft YaHei';
+    color:#369;
+
+}
+table th,table td{
+    border:1px solid #369;
+    font-size:18px;
+    text-align:center;
+    padding:10px;
+    color:#333;
+}
+table th{
+    background-color:#e4d8d8;
+}
+table td input{
+    border:none;
+    font-size:18px;
+    text-align:center;
+    /*padding:10px;*/
+    color:#333;
+}
+table td select{
+    /*border:none;*/
+    font-size:18px;
+    text-align:center;
+    padding:2px;
+    color:#333;
+}
+.submitBtn{
+    background-color:#0B84F4;
+    width:200px;
+    height:40px;
+    color:white;
+    cursor:pointer;
+}
+.submitBtn:hover{
+    -moz-box-shadow:0px 0px 3px #8E8E8E;
+     -webkit-box-shadow:0px 0px 3px #8E8E8E;
+     box-shadow:0px 0px 3px #8E8E8E;
+}

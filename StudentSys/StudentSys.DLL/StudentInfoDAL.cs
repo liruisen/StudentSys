@@ -36,5 +36,23 @@ namespace StudentSys.DLL
             }
             return stu;
         }
+        public int Update(StudentInfo stu)
+        {
+            string sql = "update Students set sName=@name,sNo=@no,sAddress=@address,sPhone=@phone , sClsId=@clsId ,sGender=@gender where id=@id";
+            SqlParameter spName = new SqlParameter("@name", SqlDbType.NVarChar) { Value = stu.Name };
+            SqlParameter spNo = new SqlParameter("@no", SqlDbType.VarChar) { Value = stu.StuNo };
+            SqlParameter spAddress = new SqlParameter("@address", SqlDbType.NVarChar) { Value = stu.Address };
+            SqlParameter spPhone = new SqlParameter("@phone", SqlDbType.VarChar) { Value = stu.Phone };
+            SqlParameter spGender = new SqlParameter("@gender", SqlDbType.Bit) { Value = stu.Gender == "男" ? true : false };
+            SqlParameter spClsId = new SqlParameter("@clsId", SqlDbType.Int) { Value = stu.ClassId };
+            SqlParameter spId = new SqlParameter("@id", SqlDbType.Int) { Value = stu.Id};
+           return DBHelper.ExcuteNonQuery(sql, CommandType.Text, spAddress, spClsId, spGender, spId, spName, spNo, spPhone);
+        }
+        public int Delete(int stuId)
+        {
+            string sql = "delete from Students where id=@id";
+            SqlParameter sp = new SqlParameter("@id", SqlDbType.Int) { Value = stuId };
+            return DBHelper.ExcuteNonQuery(sql, CommandType.Text, sp);
+        }
     }
 }

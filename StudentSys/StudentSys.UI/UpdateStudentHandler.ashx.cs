@@ -18,11 +18,23 @@ namespace StudentSys.UI
         ClassInfoBLL clsBll = new ClassInfoBLL();
         public void ProcessRequest(HttpContext context)
         {
-           //0.获取从学生列表页中传递过来的学生Id
+            if (context.Request.HttpMethod.ToUpper()=="GET")
+            {
+                this.DoGet(context);
+            }
+            else
+            {
+                this.DoPost(context);
+            }
+        }
+        private void DoGet(HttpContext context)
+        {
+
+            //0.获取从学生列表页中传递过来的学生Id
             string stuId = context.Request.QueryString["stuId"];
             if (!String.IsNullOrEmpty(stuId))
             {
-                int sId=int.Parse(stuId);
+                int sId = int.Parse(stuId);
                 //1.加载静态页模板
                 string html = File.ReadAllText(context.Request.MapPath("UpdateStudent.html"));
 
@@ -35,7 +47,7 @@ namespace StudentSys.UI
                 html = html.Replace("{@stuPhone}", stu.Phone);
                 html = html.Replace("{@stuAddress}", stu.Address);
                 //3.1替换 性别占位符
-                if (stu.Gender=="男")
+                if (stu.Gender == "男")
                 {
                     html = html.Replace("{@male}", "checked").Replace("{@fmale}", "");
                 }
@@ -51,7 +63,7 @@ namespace StudentSys.UI
                 List<ClassInfo> clsList = clsBll.GetClassList();
                 foreach (ClassInfo cls in clsList)
                 {
-                    if (stu.ClassId==cls.Id)//这个班级应该作为默认选项
+                    if (stu.ClassId == cls.Id)//这个班级应该作为默认选项
                     {
                         sbOpts.Append("<option value='" + cls.Id + "' selected='selectes'>" + cls.Name + "</option>");
                     }
@@ -67,6 +79,41 @@ namespace StudentSys.UI
             }
         }
 
+        private void DoPost(HttpContext context)
+        {
+            //0.获取表单元素
+            //
+            string stuId = context.Request.Form["stuId"];
+
+            string stuName = context.Request.Form["stuName"];
+            string stuNo = context.Request.Form["stuNo"];
+            string stuGender = context.Request.Form["stuGender"];
+            string stuPhone = context.Request.Form["stuPhone"];
+            string stuAddress = context.Request.Form["stuAddress"];
+            string stuClsId= context.Request.Form["stuClass"];
+
+            StudentInfo stu = new StudentInfo();
+            stu.Id = int.Parse(stuId);
+            stu.Name = stuName;
+            stu.Phone = stuPhone;
+            stu.Address = stuAddress;
+            stu.ClassId = int.Parse(stuClsId);
+            stu.Gender = stuGender;
+            stu.StuNo = stuNo;
+
+            //1.调用StudnetInfoBll，完成修改的逻辑业务
+            if (stuBll.Update(stu))
+            {
+                //跳转，也叫重定向
+                context.Response.Redirect("StudentHandler.ashx?clsId="+stuClsId);
+            }
+            //else
+            //{
+            //    //跳转，也叫重定向
+            //    context.Response.Redirect("ClassHandler.ashx");
+            //}
+            //2.跳转到StudnetUI.html上
+        }
         public bool IsReusable
         {
             get

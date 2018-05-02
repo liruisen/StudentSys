@@ -20,5 +20,13 @@ namespace StudentSys.BLL
         {
             return stuDal.GetStudentById(id);
         }
+        public bool Update(StudentInfo stu)
+        {
+            return stuDal.Update(stu) > 0;
+        }
+        public bool Delete(int stuId)
+        {
+            return stuDal.Delete(stuId) > 0;
+        }
     }
 }

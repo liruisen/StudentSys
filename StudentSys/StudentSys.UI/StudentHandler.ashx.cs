@@ -37,9 +37,11 @@ namespace StudentSys.UI
                     sbTrs.Append("<td>" + stu.Gender + "</td>");
                     sbTrs.Append("<td>" + stu.Address + "</td>");
                     sbTrs.Append("<td>" + stu.Phone + "</td>");
-                    sbTrs.Append("<td><a href='UpdateStudentHandler.ashx?stuId=" + stu.Id + "'>修改</a></td>");
+                    sbTrs.Append("<td><a href='UpdateStudentHandler.ashx?stuId=" + stu.Id + "'>修改    </a><a href='javascript:void(0)' onclick='doDelete(" + stu.Id + ")'>删除</a></td>");
                     sbTrs.Append("</tr>");
                 }
+
+
                 //4.把生成的字符串，嵌入到静态页的tbody标签里
                 html = html.Replace("{@tableContent}", sbTrs.ToString());
                 html = html.Replace("{@clsName}", clsName);

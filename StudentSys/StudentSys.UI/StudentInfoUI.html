@@ -2,8 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link href="CSS/ClassCss.css" rel="stylesheet" />
+    <link href="CSS/table.css" rel="stylesheet" />
     <title>{@clsName}班级信息</title>
+    <script>
+        function doDelete(id)
+        {
+            if (confirm("您真的要删除id为：" + id + "的学生吗？"))
+            {
+                
+                window.location = "DeleteStudentHandler.ashx?stuId=" + id;
+            }
+        }
+    </script>
 </head>
 <body>
     <table>
@@ -24,4 +34,5 @@
         </tbody>
     </table>
 </body>
+    
 </html>
