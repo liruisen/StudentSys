@@ -54,5 +54,16 @@ namespace StudentSys.DLL
             SqlParameter sp = new SqlParameter("@id", SqlDbType.Int) { Value = stuId };
             return DBHelper.ExcuteNonQuery(sql, CommandType.Text, sp);
         }
+        public int AddStudent(StudentInfo stu)
+        {
+            string sql = "insert into Students(sName,sNo,sAddress,sPhone,sClsId,sGender) values(@name,@no,@address,@phone,@clsId,@gender)";
+            SqlParameter spName = new SqlParameter("@name", SqlDbType.NVarChar) { Value = stu.Name };
+            SqlParameter spNo = new SqlParameter("@no", SqlDbType.VarChar) { Value = stu.StuNo };
+            SqlParameter spAddress = new SqlParameter("@address", SqlDbType.NVarChar) { Value = stu.Address };
+            SqlParameter spPhone = new SqlParameter("@phone", SqlDbType.VarChar) { Value = stu.Phone };
+            SqlParameter spGender = new SqlParameter("@gender", SqlDbType.Bit) { Value = stu.Gender == "男" ? true : false };
+            SqlParameter spClsId = new SqlParameter("@clsId", SqlDbType.Int) { Value = stu.ClassId };
+            return DBHelper.ExcuteNonQuery(sql, CommandType.Text, spAddress, spClsId, spGender, spName, spNo, spPhone);
+        }
     }
 }

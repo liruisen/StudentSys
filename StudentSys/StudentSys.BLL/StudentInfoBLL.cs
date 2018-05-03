@@ -28,5 +28,9 @@ namespace StudentSys.BLL
         {
             return stuDal.Delete(stuId) > 0;
         }
+        public bool Add(StudentInfo stu)
+        {
+            return stuDal.AddStudent(stu) > 0;
+        }
     }
 }

@@ -1,0 +1,14 @@
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.aspx\bin\StudentSys.aspx.dll.config
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.aspx\bin\StudentSys.aspx.dll
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.aspx\bin\StudentSys.aspx.pdb
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.aspx\bin\StudentSys.BLL.dll
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.aspx\bin\StudentSys.Common.dll
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.aspx\bin\StudentSys.Model.dll
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.aspx\bin\StudentSys.DLL.dll
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.aspx\bin\StudentSys.BLL.pdb
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.aspx\bin\StudentSys.Common.pdb
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.aspx\bin\StudentSys.Model.pdb
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.aspx\bin\StudentSys.DLL.pdb
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.aspx\obj\Debug\StudentSys.aspx.csprojResolveAssemblyReference.cache
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.aspx\obj\Debug\StudentSys.aspx.dll
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.aspx\obj\Debug\StudentSys.aspx.pdb

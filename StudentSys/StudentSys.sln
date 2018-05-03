@@ -7,11 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentSys.DAL", "StudentSy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentSys.BLL", "StudentSys.BLL\StudentSys.BLL.csproj", "{D569F0B3-01F9-4527-A654-861A3883940C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentSys.UI", "StudentSys.UI\StudentSys.UI.csproj", "{D31C5EB3-FBB6-42CC-A9AE-B6DD797A6D99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentSys.ashx", "StudentSys.UI\StudentSys.ashx.csproj", "{D31C5EB3-FBB6-42CC-A9AE-B6DD797A6D99}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentSys.Common", "StudentSys.Common\StudentSys.Common.csproj", "{B5C8C074-3D1F-4C89-A4D9-7E6BD1D3DBCA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentSys.Model", "StudentSys.Model\StudentSys.Model.csproj", "{E1F058E3-C98A-4D93-BD6E-82087207CE7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentSys.aspx", "StudentSys.aspx\StudentSys.aspx.csproj", "{7639BC9F-2899-44BC-8028-8043538DD723}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{E1F058E3-C98A-4D93-BD6E-82087207CE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1F058E3-C98A-4D93-BD6E-82087207CE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1F058E3-C98A-4D93-BD6E-82087207CE7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7639BC9F-2899-44BC-8028-8043538DD723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7639BC9F-2899-44BC-8028-8043538DD723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7639BC9F-2899-44BC-8028-8043538DD723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7639BC9F-2899-44BC-8028-8043538DD723}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
