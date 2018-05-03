@@ -6,7 +6,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link href="CSS/table.css" rel="stylesheet" />
-    <title></title>
+    <title>添加学生</title>
 </head>
 <body>
     <form method="post" action="AddStudent.aspx" >

@@ -16,27 +16,32 @@
     </script>
 </head>
 <body>
-    <div>   
-         <table>
-        <caption><%=this.clsName %>学生信息列表</caption>
-        <thead>
-            <tr>
-                <th>编号</th>
-                <th>学号</th>
-                <th>姓名</th>
-                <th>性别</th>
-                <th>家庭住址</th>
-                <th>联系电话</th>
-                <th>操作</th>
-            </tr>
-        </thead>
-        <tbody>
-            <%=this.sbTrs.ToString() %>
-            
-        </tbody>
-    </table>
+    <div class="divs">
+        <table>
+            <caption><%=this.clsName %>学生信息列表</caption>
+            <thead>
+                <tr>
+                    <th>编号</th>
+                    <th>学号</th>
+                    <th>姓名</th>
+                    <th>性别</th>
+                    <th>家庭住址</th>
+                    <th>联系电话</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <%=this.sbTrs.ToString() %>
+            </tbody>
+        </table>
     </div>
 
-    <div><a href="AddStudent.aspx?clsId=<%=this.clsId.ToString() %>"class="submitBtn" >添加学生</a></div>
+    <div class="divs">
+        <div class="content">
+            <a href="AddStudent.aspx?clsId=<%=this.clsId.ToString() %>" class="submitBtn">添加学生</a>
+            <a href="ClassList.aspx " class="submitBtn">返回班级</a>
+        </div>
+    </div>
+
 </body>
 </html>

@@ -7,3 +7,4 @@ E:\学习文件\Git\StudentSys\StudentSys\StudentSys.Common\bin\Debug\StudentSys
 E:\学习文件\Git\StudentSys\StudentSys\StudentSys.Common\bin\Debug\StudentSys.Common.pdb
 E:\学习文件\Git\StudentSys\StudentSys\StudentSys.Common\obj\Debug\StudentSys.Common.dll
 E:\学习文件\Git\StudentSys\StudentSys\StudentSys.Common\obj\Debug\StudentSys.Common.pdb
+E:\学习文件\Git\StudentSys\StudentSys\StudentSys.Common\obj\Debug\StudentSys.Common.csprojResolveAssemblyReference.cache
