@@ -27,7 +27,7 @@ namespace StudentSys.aspx
                 sbTrs.Append("<td>" + cls.Name + "</td>");
                 sbTrs.Append("<td>" + cls.Teacher + "</td>");
                 sbTrs.Append("<td>" + cls.Remark + "</td>");
-                sbTrs.Append("<td><a href='StudentList.aspx?clsId=" + cls.Id.ToString() + "' style='text-decoration:none;'>查看学生</a></td>");
+                sbTrs.Append("<td><a href='StudentList.aspx?clsId=" + cls.Id.ToString() + "'>查看学生</a><a href='UpdateClass.aspx?clsId=" + cls.Id.ToString() + "'>修改班级</a></td>");
                 sbTrs.Append("</tr>");
             }
         }

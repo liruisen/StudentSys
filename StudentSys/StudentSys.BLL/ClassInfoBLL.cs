@@ -19,5 +19,18 @@ namespace StudentSys.BLL
         {
             return clsDal.GetClassById(id).Name;
         }
+
+        public ClassInfo GetClassById(int id)
+        {
+            return clsDal.GetClassById(id);
+        }
+        public bool Update(ClassInfo cls)
+        {
+            return clsDal.Update(cls) > 0;
+        }
+        public bool Add(ClassInfo cls)
+        {
+            return clsDal.Add(cls) > 0;
+        }
     }
 }

@@ -70,6 +70,8 @@
     <Content Include="CSS\table.css" />
     <Content Include="StudentList.aspx" />
     <Content Include="AddStudent.aspx" />
+    <Content Include="AddClass.aspx" />
+    <Content Include="UpdateClass.aspx" />
     <Content Include="UpdateStudent.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -98,6 +100,20 @@
     </Compile>
     <Compile Include="AddStudent.aspx.designer.cs">
       <DependentUpon>AddStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddClass.aspx.cs">
+      <DependentUpon>AddClass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddClass.aspx.designer.cs">
+      <DependentUpon>AddClass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateClass.aspx.cs">
+      <DependentUpon>UpdateClass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateClass.aspx.designer.cs">
+      <DependentUpon>UpdateClass.aspx</DependentUpon>
     </Compile>
     <Compile Include="UpdateStudent.aspx.cs">
       <DependentUpon>UpdateStudent.aspx</DependentUpon>

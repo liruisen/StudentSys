@@ -24,5 +24,10 @@
             <%=this.sbTrs.ToString()%>
         </tbody>
     </table>
+    <div class="divs">
+        <div class="content">
+            <a href="AddClass.aspx" class="submitBtn">添加班级</a>
+        </div>
+    </div>
 </body>
 </html>

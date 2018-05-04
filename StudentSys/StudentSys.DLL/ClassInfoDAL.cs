@@ -31,6 +31,23 @@ namespace StudentSys.DAL
             }
             return cls;
         }
-        
+
+        public int Update(ClassInfo cls)
+        {
+            string sql = "update Classes set cName=@name,cTeacher=@teacher,cRemark=@remark where id=@clsId";
+            SqlParameter spName = new SqlParameter("@name", SqlDbType.NVarChar) { Value = cls.Name };
+            SqlParameter spTeacher = new SqlParameter("@teacher", SqlDbType.NVarChar) { Value = cls.Teacher };
+            SqlParameter spRemark = new SqlParameter("@remark", SqlDbType.NVarChar) { Value = cls.Remark };
+            SqlParameter spId = new SqlParameter("@clsId", SqlDbType.Int) { Value = cls.Id };
+            return DBHelper.ExcuteNonQuery(sql, CommandType.Text, spId, spName, spRemark, spTeacher);
+        }
+        public int Add(ClassInfo cls)
+        {
+            string sql = "insert into Classes(cName,cTeacher,cRemark) values(@name,@teacher,@remark)";
+            SqlParameter spName = new SqlParameter("@name", SqlDbType.NVarChar) { Value = cls.Name };
+            SqlParameter spTeacher = new SqlParameter("@teacher", SqlDbType.NVarChar) { Value = cls.Teacher };
+            SqlParameter spRemark = new SqlParameter("@remark", SqlDbType.NVarChar) { Value = cls.Remark };
+            return DBHelper.ExcuteNonQuery(sql, CommandType.Text,  spName, spRemark, spTeacher);
+        }
     }
 }
